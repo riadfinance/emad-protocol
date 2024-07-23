@@ -1,4 +1,4 @@
-from rust
+From rust
 
 WORKDIR /usr/src/Wallet
 COPY . .

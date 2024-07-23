@@ -4,3 +4,8 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+actix = "0.13.5"
+crypto = "0.5.1"
+serde = "1.0.204"
+serde_json = "1.0.120"
+solana-sdk = "2.0.3"
