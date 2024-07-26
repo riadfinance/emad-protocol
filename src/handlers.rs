@@ -1,5 +1,4 @@
 use std::fmt::{Display, Formatter, Result as FmtResult};
-
 use actix_web::{http, web, Error, HttpRequest, HttpResponse, ResponseError};
 use serde::{Deserialize, Serialize};
 use serde_json::{json, to_string_pretty};

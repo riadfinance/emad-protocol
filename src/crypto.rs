@@ -3,7 +3,6 @@ use crypto::sha3::Sha3;
 use serde::Serialize;
 use solana_sdk::bs58;
 use solana_sdk::pubkey::Pubkey;
-use core::macros::builtin;
 
 #[derive(Debug, PartialEq, Serialize)]
 pub enum AddressChain {
